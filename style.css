@@ -1,0 +1,575 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      background-color: gray;
+    }
+
+    .main{
+        height: 100%;
+        width: 70%;
+        background-color: #FFFFFF;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid gray;
+    }
+    nav{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        /* background-color: rgb(8, 52, 8); */
+        background-color: #7de80a;
+        padding: 25px 15px;
+        font-size: 23px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        /* margin-left: 30px; */
+    }
+    .nav1 i:hover{
+        color: black;
+    }
+    .dash{
+        display: flex;
+        justify-content: center;
+    }
+    .dash h2{
+        font-weight: 400;
+    }
+    .sales{
+        height: 45%;
+        /* width: 93%; */
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        bottom: 33%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .analytics{
+        width: 66%;
+        height: 100%;
+        background-color: #d8d9db;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+    }
+    .table1{
+        position: relative;
+        border-bottom: 1px solid black;
+        
+    }
+    .table1 > li {
+        position: relative;
+        font-size: 20px;
+        padding: 19px;
+       list-style: none;
+    }
+    .duration{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .price{
+        position: absolute;
+        right: 10px;
+    }
+    .kk{
+        height: 100%;
+        width: 8%;
+        background-color: #d8d9db;
+        position: relative;
+        position: absolute;
+        top: 0%;
+    }
+    .kk > p{
+        padding-top: 59%;
+        padding-left: 20px;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .sunone{
+        height: 50%;
+        width: 3%;
+        background-color:#7de80a;
+        position: absolute;
+        left: 14%;
+        top: 38%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    .suntwo{
+        height: 70%;
+        width: 3%;
+        background-color: #70715c;
+        position: absolute;
+        left: 18%;
+        top: 18%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    #sun{
+        font-size: 10px;
+        position: absolute;
+        left: 14%;
+    }
+    .monone{
+        height: 40%;
+        width: 3%;
+        background-color: #7de80a;
+        position: absolute;
+        left: 27%;
+        top: 48%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    .montwo{
+        height: 59%;
+        width: 3%;
+        background-color: #70715c;
+        position: absolute;
+        left: 31%;
+        top: 29%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    #mon{
+        font-size: 10px;
+        position: absolute;
+        left: 27%;
+    }
+    .tueone{
+        height: 74%;
+        width: 3%;
+        background-color: #7de80a;
+        position: absolute;
+        left: 40%;
+        top: 14%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    .tuetwo{
+        height: 39%;
+        width: 3%;
+        background-color: #70715c;
+        position: absolute;
+        left: 44%;
+        top: 49%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    #tue{
+        font-size: 10px;
+        position: absolute;
+        left: 40%;
+    }
+    .wedone{
+        height: 44%;
+        width: 3%;
+        background-color: #7de80a;
+        position: absolute;
+        left: 53%;
+        top: 44%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    .wedtwo{
+        height: 22%;
+        width: 3%;
+        background-color: #70715c;
+        position: absolute;
+        left: 57%;
+        top: 66%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    #wed{
+        font-size: 10px;
+        position: absolute;
+        left: 52%;
+    }
+    .thuone{
+        height: 41%;
+        width: 3%;
+        background-color: #7de80a;
+        position: absolute;
+        left: 66%;
+        top: 47%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    .thutwo{
+        height: 62%;
+        width: 3%;
+        background-color: #70715c;
+        position: absolute;
+        left: 70%;
+        top: 26%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    #thu{
+        font-size: 10px;
+        position: absolute;
+        left: 66%;
+    }
+    .frione{
+        height: 51%;
+        width: 3%;
+        background-color: #7de80a;
+        position: absolute;
+        left: 79%;
+        top: 37%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    .fritwo{
+        height: 29%;
+        width: 3%;
+        background-color: #70715c;
+        position: absolute;
+        left: 83%;
+        top: 59%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    #fri{
+        font-size: 10px;
+        position: absolute;
+        left: 80%;
+    }
+    .satone{
+        height: 76%;
+        width: 3%;
+        background-color: #7de80a;
+        position: absolute;
+        left: 92%;
+        top: 12%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    .sattwo{
+        height: 82%;
+        width: 3%;
+        background-color: #70715c;
+        position: absolute;
+        left: 96%;
+        top: 6%;
+        border-radius: 4px 4px 0px 0px ;
+    }
+    #sat{
+        font-size: 10px;
+        position: absolute;
+        left: 91%;
+    }
+    .salebox{
+        width: 32%;
+        height: 100%;
+        background-color: #d8d9db;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+    }
+    #salesannay{
+        font-size: 18px;
+        position: absolute;
+        top: 10%;
+        left: 7%;
+    }
+    #revenue{
+        height: 32%;
+        width: 70%;
+        background-color: #70715c;
+        position: absolute;
+        top: 26%;
+        left: 7%;
+    
+    }
+    #revenuep{
+        font-size: 12px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-weight: 550;
+    }
+    #revenueh{
+        font-size: 17px;
+        position: absolute;
+        top: 35%;
+        left: 10%;
+    }
+    #revenuepp{
+        font-size: 10px;
+        position: absolute;
+        top: 70%;
+        left: 10%;
+        font-weight: 550;
+    }
+    #torder{
+        height: 32%;
+        width: 70%;
+        background-color: #7de80a;
+        position: absolute;
+        top: 63%;
+        left: 7%;
+    
+    }
+    #totalop{
+        font-size: 12px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-weight: 550;
+    }
+    #totaloh{
+        font-size: 17px;
+        position: absolute;
+        top: 35%;
+        left: 10%;
+    }
+    #totalopp{
+        font-size: 10px;
+        position: absolute;
+        top: 70%;
+        left: 10%;
+        font-weight: 550;
+    }
+    .secondmain{
+        height: 30%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        left: 0%;
+        bottom: 2%;
+    }
+    .daysales{
+        width: 32%;
+        height: 100%;
+        background-color: #d8d9db;
+        position: relative;
+        border-radius: 5px;
+        border: none;
+        
+    }
+    #dayssalesh{
+        font-size: 22px;
+        position: absolute;
+        left: 8%;
+        top: 20%;
+        font-weight: 600;
+    }
+    #daysalesp{
+        font-size: 8px;
+        position: absolute;
+        left: 8%;
+        top: 40%;
+        font-weight: 600;
+        color: #9A9EA1;
+    }
+    .up{
+        height: 10%;
+        width: 20%;
+        position: absolute;
+        left: 9%;
+        top: 70%;
+        border: none;
+        border-radius: 2px;
+        background-color: #fbb7b4;
+    }
+    .up > p{
+        font-size: 8px;
+        font-weight: 600;
+        padding: 2px 0px 0px 5px;
+        color: #F3616F;
+    
+    }
+    .lineone{
+        height: 60%;
+        width: 5%;
+        background-color: #E7E9EF;
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        border-radius: 3px 3px 0px 0px;
+    }
+    #jan{
+        font-size: 6px;
+        position: absolute;
+        top: 100%;
+    }
+    .linetwo{
+        height: 45%;
+        width: 5%;
+        background-color: #EC5F60;
+        position: absolute;
+        left: 60%;
+        top: 35%;
+        border-radius: 3px 3px 0px 0px;
+    }
+    #feb{
+        font-size: 6px;
+        position: absolute;
+        top: 100%;
+    }
+    .linethree{
+        height: 30%;
+        width: 5%;
+        background-color: #E7E9EF;
+        position: absolute;
+        left: 70%;
+        top: 50%;
+        border-radius: 3px 3px 0px 0px;
+    }
+    #mar{
+        font-size: 6px;
+        position: absolute;
+        top: 100%;
+    }
+    .linefour{
+        height: 48%;
+        width: 5%;
+        background-color: #E7E9EF;
+        position: absolute;
+        left: 80%;
+        top: 32%;
+        border-radius: 3px 3px 0px 0px;
+    }
+    #apr{
+        font-size: 6px;
+        position: absolute;
+        top: 100%;
+    }
+    .linefive{
+        height: 30%;
+        width: 5%;
+        background-color: #EC5F60;
+        position: absolute;
+        left: 90%;
+        top: 50%;
+        border-radius: 3px 3px 0px 0px;
+    }
+    #may{
+        font-size: 6px;
+        position: absolute;
+        top: 100%;
+    }
+    .outstanding{
+        width: 32%;
+        height: 100%;
+        background-color:#d8d9db;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+    }
+    #outstandh{
+        font-size: 22px;
+        position: absolute;
+        left: 8%;
+        top: 20%;
+        font-weight: 600;
+    }
+    #outstandp{
+        font-size: 8px;
+        position: absolute;
+        left: 8%;
+        top: 40%;
+        font-weight: 600;
+        color: #9A9EA1;
+    }
+    #overdueh{
+        font-size: 15px;
+        position: absolute;
+        right: 4%;
+        top: 20%;
+        font-weight: 500;
+    }
+    #overduep{
+        font-size: 8px;
+        position: absolute;
+        right: 8%;
+        top: 33%;
+        font-weight: 500;
+        color: #9A9EA1;
+    }
+    #dueh{
+        font-size: 12px;
+        position: absolute;
+        right: 4%;
+        top: 60%;
+        font-weight: 500;
+    }
+    #duep{
+        font-size: 8px;
+        position: absolute;
+        right: 12%;
+        top: 70%;
+        font-weight: 500;
+        color: #9A9EA1;
+    }
+    
+    .down{
+        height: 10%;
+        width: 20%;
+        position: absolute;
+        left: 9%;
+        top: 70%;
+        border: none;
+        border-radius: 2px;
+        background-color: #b2f6ca;
+    }
+    .down > p{
+        font-size: 8px;
+        font-weight: 600;
+        padding: 2px 0px 0px 5px;
+        color: #21ae75;
+    
+    }
+
+    .actiontodo{
+        width: 32%;
+        height: 100%;
+        /* background-color: #3D8AFF; */
+        background-color: #7de80a;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+    }
+    #totalexpense{
+        font-size: 8px;
+        position: absolute;
+        left: 8%;
+        top: 20%;
+        font-weight: 600;
+        color: black;
+    }
+    #totalexpenseh{
+        font-size: 22px;
+        position: absolute;
+        left: 8%;
+        top: 30%;
+        font-weight: 600;
+    }
+    #totalexpensep{
+        font-size: 8px;
+        position: absolute;
+        left: 8%;
+        top: 60%;
+        font-weight: 600;
+        color: black;
+    }
+    #overduetotalh{
+        font-size: 15px;
+        position: absolute;
+        right: 4%;
+        top: 30%;
+        font-weight: 500;
+    }
+    #overduetotalp{
+        font-size: 8px;
+        position: absolute;
+        right: 8%;
+        top: 44%;
+        font-weight: 500;
+        color: black;
+    }
+    
